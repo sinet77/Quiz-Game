@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio autoplay loop>
+        <source src="Vivaldi- The Four Seasons.mp3" type="audio/mp3">
+        Twoja przeglądarka nie obsługuje elementu audio.
+    </audio>
+        <div class="app">
+            <div id="text1">Welcome to the quiz game!</div>
+            <div class="game-setup">
+            <div>
+            <label for="category">
+                Choose a category:
+            </label>
+            <select id="category">
+            <option value="">-Please select a category-</option>
+                <option value="Animals">Animals</option>
+                <option value="History">History</option>
+                <option value="Food">Food</option>
+                <option value="Sport">Sport</option>
+        </select>
+            </div>
+            <div>
+                <label for="difficulty">Select difficulty:</label>
+                <select id="difficulty">
+                    <option value="">-Please select a difficulty-</option>
+
+
+                </select>
+            </div>
+            <button class="start-btn">Start game</button>
+         </div>
+         
+         <div id="text-question"></div>
+         <div id="answer-btns" style="display: none"> <!--tu beda dynamiczne przyciski-->
+        </div>
+        <button id="next-btn" style="display: none">Next</button>
+        <button id="menu" style="display: none">Menu</button>
+
+    </div>
+        
+
+        
+        
+    <script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:rgb(49, 47, 47);
+    margin: 0;
+    font-family: sans-serif;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ 
+}
+
+.app{
+    min-height: 90vh;
+    background-color: rgb(160, 160, 160);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 12px;
+    width:500px;
+    margin:5px auto;
+    margin-top: 35px;
+    border-radius: 10px;
+    border: 10px solid #ade66d;
+    box-shadow: 3px 5px 50px;
+}
+
+
+#text1{
+    font-weight:bold;
+    display:flex;
+    margin: 100px 0;
+    margin-top:-85px;
+    margin-bottom:20px;
+    font-size:30px;
+    
+}
+
+#text-question{
+    margin:70px;
+    margin-top:-15px;
+    font-size:24px;
+    font-weight:bold;
+    font-family:sans-serif;
+    color: black;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3); 
+    /* Ten kod ustawia cień o przesunięciu 2 piksele w poziomie, 
+    2 piksele w pionie, rozmyciu 2 piksele 
+    i półprzezroczystym kolorze czarnego cienia */
+    width: 400px;
+    word-wrap: break-word; /* zawijanie tekstu */
+}
+
+.game-setup div{
+    margin: 10px 0;
+}
+.game-setup label{
+    margin-bottom: 10px; /*odstep pomiedzy text1 a choose a category*/
+    margin: 20px;
+    font-weight: bold;
+    flex-direction: column;
+    display: block;
+}
+
+#category, #difficulty{
+    width:100%;
+    padding: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    font-size:15px;
+    
+}
+.start-btn{
+    padding: 20px;
+    display:flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    width:200px;
+    height: 50px;
+    font-family:sans-serif;
+    font-size:18px;
+    font-weight:bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    border: 2px solid #ade66d;
+    border-radius: 5px;
+    cursor:pointer;
+    background: transparent;
+    letter-spacing: 0.3px;
+    overflow: hidden;
+    margin-bottom: -100px;
+    margin-top: 150px;
+    background:rgb(49, 47, 47);
+ 
+}
+
+.start-btn:hover{
+    background-color: rgb(92, 179, 131);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transform: scale(1.1);
+
+}
+
+/* jak przesunac przyciski do dolu , tak aby question-text zostal na swoim miejscu */
+/* btn - question buttons */
+
+.btn{
+    
+    display:flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width:350px;
+    height: 50px;
+    font-family:sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    background:#fff;
+    border: 2px solid #6dd4e6;
+    cursor: pointer;
+    margin: 10px;
+
+
+}
+.btn:hover{
+    background-color: rgb(252, 236, 167);
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    transform: scale(1.1);;
+
+}
+
+/* jak przesunac przycisk next do dolu, nie przesuwajac elementow answer A,B itp */
+#next-btn{
+    width:100px;
+    margin-top:50px;
+    height:40px;
+    font-family:sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    transition:0.3s;
+    cursor: pointer;
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    border-radius: 4px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center
+}
+
+#next-btn:hover{
+    opacity:0.6
+}
+
+#menu{
+    width:100px;
+    margin-top:50px;
+    height:40px;
+    font-family:sans-serif;
+    font-size:15px;
+    font-weight:bold;
+    transition:0.3s;
+    cursor: pointer;
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+    border-radius: 4px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center
+}
+
+#next-btn:hover{
+    opacity:0.6
+}
+
