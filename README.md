@@ -1,3 +1,5 @@
+https://sinet77.github.io/Quiz-Game/
+
 My interactive quiz application is designed to test your knowledge in various categories and difficulty levels. Utilizing HTML, CSS, and JavaScript, the application dynamically generates buttons with multiple-choice answers. Upon selecting an answer, the button immediately changes color to green if the response is correct or red if it's incorrect.
 
 Features:
